@@ -3,6 +3,7 @@
     "sde.buildOnSave": true,
     "files.autoSave": "afterDelay",
     "editor.fontSize": 16,
+    "editor.fontFamily": "Fira Code",
     "editor.wordWrap": "on",
     "files.exclude": {
         "**/.git": true,

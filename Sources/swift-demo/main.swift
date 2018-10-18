@@ -9,7 +9,6 @@ func computeSorceGreaterThanOrEqualTo60(scores: [Int]) -> [Int] {
     }
     return result
 }
-debugPrint(computeSorceGreaterThanOrEqualTo60(scores: scores))
 
 func sum(integers: [Int]) -> Int {
     return 0
@@ -23,6 +22,14 @@ extension Array {
         }
         return result
     }
+
+    func filter(_ isInclude: (Element) -> Bool) -> [Element] {
+        var result: [Element] = []
+        for x in self where isInclude(x) {
+            result.append(x)
+        }
+        return result
+    }
 }
 
-debugPrint([1, 4, 5, 6].map { $0 + 1 })
+debugPrint([61, 34, 59, 96].filter { $0 >= 60})
