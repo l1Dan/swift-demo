@@ -1,0 +1,10 @@
+{
+    "editor.quickSuggestions": false,
+    "sde.buildOnSave": true,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+    // "swiftlint.enable": true,
+    "swift.toolchainPath": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain",
+    "swift.path.sourcekite": "/Users/lidan/Developer/sourcekite/.build/x86_64-apple-macosx10.10/release/sourcekite"
+}
