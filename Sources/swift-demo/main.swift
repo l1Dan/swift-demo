@@ -173,6 +173,15 @@ extension Array {
     }
 }
 
-//? 题7：给定一组分数[59, 72, 31, 96], 将分数大于等于 60 分的按照 Score： xx, 格式换行打印出来。
-let result = [59, 72, 31, 96].filter { $0 >= 60 }.map { "Score: \($0) " }.reduce("") { $0 + $1 }
-debugPrint(result)
+// ? 题7：给定一组分数[59, 72, 31, 96], 将分数大于等于 60 分的按照 Score： xx, 格式换行打印出来。
+// let result = [59, 72, 31, 96].filter { $0 >= 60 }.map { "Score: \($0) " }.reduce("") { $0 + $1 }
+// debugPrint(result)
+
+// let some: Int? = 5
+// debugPrint(some.map { x -> Int in
+//     debugPrint("----")
+//     return x
+// })
+// debugPrint(some.flatMap { $0 })
+let array = [[1, 2, 3, 4, nil], [1, 3]]
+print(array.genericCompute { $0 })
