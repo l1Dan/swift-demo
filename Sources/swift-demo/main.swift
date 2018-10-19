@@ -32,4 +32,5 @@ extension Array {
     }
 }
 
-debugPrint([61, 34, 59, 96].filter { $0 >= 60})
+
+debugPrint([61, 34, 59, 96].filter { $0 >= 60 })
